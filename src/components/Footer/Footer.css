@@ -1,0 +1,152 @@
+footer {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    width: 100vw;
+    padding: 0 35px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px !important;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    gap: 1em;
+    & .logo {
+        width: 75%; 
+        padding-bottom: 1em;
+    }
+    & .icons {
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+        padding-top: 1em;
+    }
+}
+
+.info-cat {
+    display: flex;
+    gap: 3em;
+    flex-direction: row;
+    padding-bottom: 2.5em;
+    & .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    & .cat {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    & p {
+        line-height: 1.6;
+    }
+}
+
+.direitos {
+    width: 98% !important;
+    text-align: center !important;
+    & p {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: flex-start;
+}
+.social {
+    & .logo {
+        width: 60%;
+        height: 60%;
+        padding-bottom: 0.5em;
+    }
+    & p {
+        padding-bottom: 0.5em;
+    }
+}
+.info-cat h3{
+    padding-bottom: 0.7em;
+}
+.contato {
+    margin-left: 0.5em;
+}
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+footer {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding-top: 1.8rem;    
+}
+.social {
+    margin-right: 7em;
+    
+    & .logo {
+        width: 50%;
+        height: 50%;
+        padding-bottom: 1em;
+    }
+    & p {
+        padding-bottom: 1em;
+    }
+}
+.info-cat {
+    margin-right: 6em;
+    gap: 4em;
+    & .info {
+        width: 8em;
+        & h3 {
+            padding-bottom: 1em;
+            font-size: 1.5rem;
+        }
+    }
+    & .cat h3{
+        padding-bottom: 1em;
+        font-size: 1.5rem;
+    }
+    & a {
+        line-height: 1.6;
+    }
+}
+
+.contato {        
+    & h3 {
+        padding-bottom: 0.5em;
+        font-size: 1.5rem;
+    }
+}
+
+.direitos {
+    text-align: center;
+    width: 100%;
+}
+}

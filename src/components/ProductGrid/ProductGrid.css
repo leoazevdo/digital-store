@@ -1,0 +1,9 @@
+.grid-container {
+  display: grid;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding-bottom: 80px;
+}

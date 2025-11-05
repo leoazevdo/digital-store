@@ -1,0 +1,80 @@
+body {
+  height: 100vh !important;
+}
+
+.homePageBanner {
+  background-color: var(--light-gray-3);
+  padding-left: 30px;
+  padding-bottom: 80px;
+  width: 100vw !important;
+}
+
+.banner-container {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  padding: 0 70px;
+  width: 100%;
+  display: inline-block; 
+  vertical-align: middle; 
+  width: 50%; 
+  & p {
+    font-size: large;
+    color: var(--warning);
+  }
+
+  & h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+    color: var(--dak-gray);
+  }
+
+  & p:nth-of-type(2) {
+    color: var(--dark-gray-3);
+  }
+
+  & button {
+    width: 25%;
+    color: white !important;
+    font-weight: 600;
+    background-color: var(--primary);
+  }
+
+  & button:hover {
+    background-color: var(--tertiary);
+  }
+
+}
+
+.carousel-indicators {
+  left: 0px;
+  bottom: -50px;
+  display: flex;
+  gap: 4px;
+  & button {
+    background-color: var(--primary) !important;
+  }
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 12px; 
+  height: 12px; 
+  border-radius: 50%; 
+}
+
+.no-arrows .carousel-control-prev,
+.no-arrows .carousel-control-next {
+  display: none;
+}
+
+.tenis-img {
+  width: 70%;
+  transform: rotate(-30deg);
+}
+
+.ornamento {
+  margin-bottom: 230px;
+}
