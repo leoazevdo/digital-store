@@ -1,0 +1,97 @@
+.div_form {
+    margin: 0 auto;
+    width: 50%;
+    font-weight: bold;
+    padding-bottom: 10rem;
+
+    & h1 {
+        padding-bottom: 1rem;
+        
+    }
+}
+
+.inf_pes {
+    background-color: var(--white);
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.inf_ent {
+    background-color: var(--white);
+    padding: 2rem;
+}
+
+.form-control {
+    background-color: var(--light-gray-3);
+    padding: 0.8rem;
+    
+}
+
+.form-control::placeholder{
+    color: var(--dark-gray-3);
+}
+
+.form-control:focus {
+    outline: 4px solid var(--primary);
+    border-color: var(--tertiary);
+    transition: box-shadow 1s ease-out, border-color 0.3s ease;
+}
+
+.confirm {
+    padding-top: 1rem;
+    font-weight: normal;
+}
+
+.form-check .form-check-input:focus {
+    outline: 4px solid var(--tertiary);
+    border-color: var(--primary);
+}
+
+.form-check .form-check-input:checked {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    outline: 4px solid var(--tertiary);
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: var(--primary);
+    border: none;
+    padding: 0.7rem;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: var(--tertiary);
+}
+
+.btn-primary:focus {
+    background-color: var(--tertiary);
+    outline: 4px solid var(--primary);
+    transition: box-shadow 1s ease-out, border-color 0.3s ease;
+}
+
+.btn-primary:active {
+    background-color: var(--tertiary) !important;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.password-strength-text span.strong {
+    color: green;
+}
+
+.password-strength-text span.medium {
+    color: orange;
+}
+
+.password-strength-text span.weak {
+    color: gray;
+}
+
+.password-strength-text span.very-weak {
+    color: red;
+}
