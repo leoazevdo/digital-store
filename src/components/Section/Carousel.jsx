@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ornamento from '/Ornament-11.png'; // certifique-se de que o arquivo está em /public
+import ornamento from '/Ornament-11.png'; 
 
 const bannerData = [
   {
@@ -7,7 +7,7 @@ const bannerData = [
     paragrafo1: 'Melhores ofertas personalizadas',
     titulo: 'Queima de estoque Nike 🔥',
     paragrafo2: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus libero excepturi delectus minima.',
-    imgSrc: '/tenis-banner.png' // certifique-se de que está em /public
+    imgSrc: '/tenis-banner.png' 
   },
   {
     id: 2,

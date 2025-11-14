@@ -1,0 +1,97 @@
+.login_back {
+    background: linear-gradient(180deg, #B5B6F2 0%, #EFEFFF 100%);
+    color: var(--dark-gray-2);
+}
+
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.login_row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap !important;
+
+}
+
+.login_col {
+    background-color: var(--white);
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 100%;
+    margin-top: 2.5rem;
+}
+
+.text_center {
+    display: block;
+
+    & h3 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    & a {
+        color: inherit;
+        font-weight: 300;
+    }
+
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    & .lg_form_label{
+        font-weight: 700;
+    }
+
+    & .lg_form_placeholder {
+        color: var(--dark-gray-3);
+    }
+}
+
+.esqueci_senha a {
+    color: inherit;
+    font-weight: 500;
+}
+
+.ButtonUserLogin {
+    height: 3rem;
+}
+
+.diferent_login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 2rem;
+
+    & .gmail_icon, .facebook_icon {
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        background-size:cover;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+.img_login {
+    width: 55%;
+    height:85%;
+    font-weight: 400;
+    font-size: 1rem;
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+}

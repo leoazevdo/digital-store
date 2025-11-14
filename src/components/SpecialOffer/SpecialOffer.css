@@ -1,0 +1,52 @@
+.card_offer {
+    border: none;
+    width: 100%;
+    gap: 3.5rem;
+    margin: 0 auto;
+    display: flex !important;
+    flex-direction: row;
+    color: var(--dark-gray-2);
+    background-color: var(--white);
+
+
+
+     & .image_card_offer {
+        padding: 6rem 0rem 3rem 8rem;
+    }
+
+     & .card_body_offer {
+        padding: 7rem 15rem 0rem 0rem;
+    }
+
+& .card_subt_offer {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+        color: var(--primary);
+        font-weight: bold;
+    }
+
+    & .card_title_offer {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    & .card_text_offer {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    & .card_button_offer {
+        background-color: var(--primary);
+        border: none;
+        width: 10rem;
+        height: 2rem;
+        padding: 0rem 1.2rem;
+    }
+
+    & .card_button_offer:hover {
+        background-color: var(--tertiary);
+    }
+
+
+
+}
